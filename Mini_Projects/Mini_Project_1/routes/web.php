@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/structure', function () {
-    return view('structure'); // This looks for structure.blade.php in resources/views
+    return view('structure');
 });

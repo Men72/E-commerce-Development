@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 use App\Http\Controllers\ProjectController;
 
-// ...existing code...
+
 
 Route::get('/artisan-report', [ProjectController::class, 'index']);
